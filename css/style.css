@@ -1,0 +1,20 @@
+body {
+    color: white;
+    background-color: black;
+    max-width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+img {
+    width: 20em;
+    border: 1px solid red;
+}
+
+h2::before, h3::before {
+    content: "#";
+}
+
+img + p {
+    font-size: 0.8em;
+}
